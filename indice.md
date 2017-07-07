@@ -5,10 +5,11 @@ Los vídeos están ordenados según la forma lógica de seguirlos y pueden ser d
 |---|---|---|---
 |Arduino||||
 ||Qué es arduino|10||
+||Una breve historia de Arduino| 5
 ||Ecosistema arduino|5||
-||modelos|15||
-||competencia|10||
-| ¿Qué necesito?||||
+||Muchos modelos, escogiendo el adecuado|15||
+||La competencia de Arduino|10||
+|¿Qué necesito?||||
 ||Elementos para empezar|10||
 ||Kits|15||
 ||¿tiendas?|10||
@@ -16,7 +17,13 @@ Los vídeos están ordenados según la forma lógica de seguirlos y pueden ser d
 ||Lenguajes y alternativas|10||
 ||Entorno de programación arduino| 10||
 ||Instalación | 10||
+||Una prueba rápida: led 13| 5|
+||Aprendiendo con el IDE: Los ejemplos| 5
 ||Apéndice - alternativas: Bitbloq,Visualino,Scratch| 15 |¿Puede distraer?
+|Arquitectura de Arduino||||
+||¿Qué hay en una placa?|10||
+||¿Qué es un Microcontrolador?| 5||
+||Estructura de bloques de Arduino|5|
 |Encendiendo cosas||||
 ||Encendiendo/apagando leds| 10|
 ||Electrónica: Algo de electrónica básica | 10
@@ -45,7 +52,7 @@ Los vídeos están ordenados según la forma lógica de seguirlos y pueden ser d
 ||Servos| 5| tipos
 ||Motores DC | 5| (tipos, potencia, tamaño,reducciones)
 ||Motores paso a paso | 10 |(tipos, potencia, tamaño
-||Drivers| 10
+||Manejando motores: los drivers| 10
 | Sonido
 | Midiendo tiempos
 | Programación
