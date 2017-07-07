@@ -30,6 +30,7 @@ Cada proyecto motiva la introducción de una funcionalidad
 ||¿Qué hay en una placa?|10|||
 ||¿Qué es un Microcontrolador?| 5|||
 ||Estructura de bloques de Arduino|5||
+||Comparativa de hardware entre modelos|10||
 |**Encendiendo cosas**|**120**|||
 ||Encendiendo/apagando leds| 10||
 ||Electrónica: Algo de electrónica básica | 10||
@@ -80,15 +81,21 @@ Cada proyecto motiva la introducción de una funcionalidad
 ||Algunos shields...|15|||
 |**Comunicaciones**|
 ||WIFI
-||Infrarrojos
+||Mandos de Infrarrojos
 ||Bluetooth
 ||Apéndice: Aplicaciones Android con App Inventor
 ||Ethernet
+||RF
+||XBee
+||GSM/GPRS
+||GPS
 
 Añadir:
 * Puerto serie
+* Leds NeoPixels (después de introducir librerías)
 * LCD
 * Sensores Infrarrojos
 * Shield
 * RFid
 * Tarjetas SD
+* Acelerómetros y Brújulas
