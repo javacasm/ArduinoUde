@@ -78,13 +78,17 @@ Cada proyecto motiva la introducción de una funcionalidad
 |**Ampliando Arduino: shields|**20**||
 ||¿Qué es un shield?|5|||
 ||Algunos shields...|15|||
+|**Comunicaciones**|
+||WIFI
+||Infrarrojos
+||Bluetooth
+||Apéndice: Aplicaciones Android con App Inventor
+||Ethernet
 
 Añadir:
 * Puerto serie
 * LCD
-* Ultrasonidos
-* Infrarrojos
-* WIFI
+* Sensores Infrarrojos
 * Shield
-* Bluetooth
 * RFid
+* Tarjetas SD
