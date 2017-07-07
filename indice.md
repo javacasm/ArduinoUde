@@ -86,3 +86,5 @@ Añadir:
 * Infrarrojos
 * WIFI
 * Shield
+* Bluetooth
+* RFid
