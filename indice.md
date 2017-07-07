@@ -5,20 +5,20 @@ Cada proyecto motiva la introducción de una funcionalidad
 
 |Capitulo|Titulo|Duración|Descripción
 |---|---|---|---
-|**Presentación del curso**|
+|**Presentación del curso**||**15**|
 ||¿Qué vamos a aprender|5
 ||Indice del curso|5
-|**Arduino**|**45**|||
+|**Arduino**||**45**||
 ||Qué es arduino|10||
 ||Una breve historia de Arduino| 5
 ||Ecosistema arduino|5||
 ||Muchos modelos de Arduino, escogiendo el adecuado|15||
 ||La competencia de Arduino|10||Raspberry, ESP, etc.
-|**¿Qué necesito?**|**35**|||Componentes y herramientas básicos
+|**¿Qué necesito?**||**35**|||Componentes y herramientas básicos
 ||Elementos para empezar|10||
 ||Kits|15||
 ||¿tiendas?|10||
-|**Programando Arduino**|**55**|||
+|**Programando Arduino**||**70**|||
 ||Lenguajes y alternativas|10||
 ||Entorno de programación arduino| 10||
 ||Instalación | 10||
@@ -26,11 +26,11 @@ Cada proyecto motiva la introducción de una funcionalidad
 ||Una prueba rápida: led 13| 5||
 ||Aprendiendo con el IDE: Los ejemplos| 5| Repaso de los ejemplos
 ||Apéndice - alternativas: Bitbloq,Visualino,Scratch| 15 |¿Puede distraer?
-|**Arquitectura de Arduino**|**20**|||
+|**Arquitectura de Arduino**||**20**|||
 ||¿Qué hay en una placa?|10|||
 ||¿Qué es un Microcontrolador?| 5|||
 ||Estructura de bloques de Arduino|5||
-|**Encendiendo cosas**|**60**|||
+|**Encendiendo cosas**|**120**|||
 ||Encendiendo/apagando leds| 10||
 ||Electrónica: Algo de electrónica básica | 10||
 ||Programación: Repetición, los bucles | 10||
@@ -40,12 +40,12 @@ Cada proyecto motiva la introducción de una funcionalidad
 ||Trabajando con muchos leds| 10||
 ||Proyecto: regulando la intensidad de la iluminación|5
 ||Controlando la "potencia": PWM | 10||
-||Proyecto: Controlando las luces de casa
+||Proyecto: Controlando las luces de casa|5
 ||Leds RGB|10
 ||Electrónica: Algo de electrónica de casa| 10
 ||Controlando dispositivos reales:reles | 10 | Calidad, cuidado|
 ||Apéndice: esquemas electrónicos con Fritzing| 5
-|**Midiendo/detectando: Sensores**|**70**|||
+|**Midiendo/detectando: Sensores**|**100**|||
 ||Ajustando los valores
 ||Programación: almacenando valores, variables|10| tipos y ámbitos
 ||Potenciómetros | 5|||
