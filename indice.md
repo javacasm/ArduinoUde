@@ -62,7 +62,8 @@ Cada proyecto motiva la introducción de una funcionalidad
 ||Temperatura | 5| (tipo, precisión)
 ||Barómetros| 5
 |**Actuando sobre nuestro entorno**|**50**|||
-||Tipos de motores| 10 | necesidades
+||Proyecto: robot móvil| 5| distintos tipos de movimiento y necesidades de control
+||Tipos de motores| 10 | necesidades y características
 ||Electrónica: Algo de electrónica de potencia | 10
 ||Servos| 5| tipos
 ||Motores DC | 5| (tipos, potencia, tamaño,reducciones)
@@ -74,11 +75,11 @@ Cada proyecto motiva la introducción de una funcionalidad
 || Funciones|||
 || Clases|||
 |**Interrupciones**|**20**||||
-|**Ampliando Arduino: shields|||
+|**Ampliando Arduino: shields|**20**||
 ||¿Qué es un shield?|5|||
 ||Algunos shields...|15|||
 
-TODO:
+Añadir:
 * Puerto serie
 * LCD
 * Ultrasonidos
