@@ -4,23 +4,28 @@ Los vídeos están ordenados según la forma lógica de seguirlos y pueden ser d
 |Capitulo|Titulo|duración|descripción
 |---|---|---|---
 |Arduino||||
-||Qué es arduino|||
-||Ecosistema arduino|||
-||modelos|||
-||competencia|||
+||Qué es arduino|10||
+||Ecosistema arduino|5||
+||modelos|15||
+||competencia|10||
 | ¿Qué necesito?||||
-||Kit para empezar|||
-|Entorno de programación||||
-||Entorno de arduino| 5||
-||Instalación | 5||
+||Elementos para empezar|10||
+||Kits|15||
+||¿tiendas?|10||
+|Programando Arduino||||
+||Lenguajes y alternativas|10||
+||Entorno de programación arduino| 10||
+||Instalación | 10||
 ||Apéndice - alternativas: Bitbloq,Visualino,Scratch| 15 |¿Puede distraer?
-|Leds||||
-||Encendiendo/apagando| 10|
-||Algo de electrónica básica | 10
-||Programación: Repitiendo: bucles | 10
+|Encendiendo cosas||||
+||Encendiendo/apagando leds| 10|
+||Electrónica: Algo de electrónica básica | 10
+||Programación: Repetición, los bucles | 10
+||Alimentación y capacidad eléctrica de Arduino| 10|
+||Trabajando con muchos leds| 10||
 ||Controlando la "potencia": PWM | 10
+||Electrónica: Algo de electrónica de casa| 10
 ||Controlando dispositivos reales | 10 | Calidad, cuidado
-||Algo de electrónica de casa| 10
 | Midiendo/detectando: Sensores
 ||Potenciómetros | 5
 ||Algo de electrónica analógica | 10
@@ -28,19 +33,20 @@ Los vídeos están ordenados según la forma lógica de seguirlos y pueden ser d
 ||Sensores analógicos | 5 | ( Calibrado )
 ||Temperatura| 10
 ||Humedad | 10
-|| Programación: Decisiones|| Mover a algún punto anterior
+||Programación: almacenando valores, variables|10| tipos y ámbitos
+||Programación: Decisiones|5| Mover a algún punto anterior
 ||Sensores digitales| 10| protocolos
 ||Programación: librerías|
 ||Temperatura | 5| (tipo, precisión)
 ||Barómetros| 5
-|Actuando: actuadores
+|Actuando sobre nuestro entorno||||
 ||Tipos de motores| 10 | necesidades
-||Algo de electrónica de potencia | 10
+||Electrónica: Algo de electrónica de potencia | 10
 ||Servos| 5| tipos
 ||Motores DC | 5| (tipos, potencia, tamaño,reducciones)
 ||Motores paso a paso | 10 |(tipos, potencia, tamaño
 ||Drivers| 10
+| Sonido
+| Midiendo tiempos
 | Programación
-|| Variables
-
 || Funciones
