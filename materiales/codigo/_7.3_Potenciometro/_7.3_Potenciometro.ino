@@ -43,6 +43,8 @@ void loop() {
 
   Serial.print("Valor potenciometro:");
   Serial.println(iValorPotenciometro);
+
+  delay(TIEMPO_ESPERA);
 }
 /* ==== End Loop ==== */
 
