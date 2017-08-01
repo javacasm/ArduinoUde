@@ -1,7 +1,7 @@
 /*
 Curso de Arduino
 
-Lectura de valor de potenciometro conectado a pin analógico A0
+Lectura de valor de una resistencia LDR conectada a pin analógico A0
 
 Conexiones
 
