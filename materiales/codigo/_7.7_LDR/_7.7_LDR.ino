@@ -29,7 +29,7 @@ by JAVacasM
 /* ====  END Includes ==== */
 
 /* ==== Defines - Constantes ==== */
-#define PIN_LDR           A8
+#define PIN_LDR           A0
 #define TIEMPO_ESPERA     1000 // 1000 milisegundos = 1 segundo
 /* ==== END Defines ==== */
 
