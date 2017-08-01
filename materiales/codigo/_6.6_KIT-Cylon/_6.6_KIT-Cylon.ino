@@ -1,14 +1,15 @@
 /*
 Curso de Arduino
 
-Encendemos y apagamos un LED conectado al pin 13
+Scanner Larson o KIT o Cylon
+Encendemos y apagamos 5 leds conectado a los pines 8,9,10,11,12
 
 Conexiones
 
 LED:
-  Terminal positivo (el más largo): pin digital 13
-    (Si se usa otro pin hay que incluir una resistencia de al menos 220 Ohmios)
-  Terminal negativo (más corto): GND
+  Terminal positivo (el más largo) conectado a los pines 8,9,10,11,12
+  Terminal negativo (más corto): conectados a una resistencias de 220Ohmios
+      conectada a GND
 
 by JAVacasM
  */
