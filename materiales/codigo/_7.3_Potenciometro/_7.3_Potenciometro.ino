@@ -19,8 +19,8 @@ by JAVacasM
 /* ====  END Includes ==== */
 
 /* ==== Defines - Constantes ==== */
-#define PIN_POTENCIOMETRO           A8
-#define TIEMPO_ESPERA     1000 // 1000 milisegundos = 1 segundo
+#define PIN_POTENCIOMETRO   A0
+#define TIEMPO_ESPERA       1000 // 1000 milisegundos = 1 segundo
 /* ==== END Defines ==== */
 
 /* ==== Variables Globales ==== */
