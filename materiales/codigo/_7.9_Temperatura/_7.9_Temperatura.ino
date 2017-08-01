@@ -47,7 +47,7 @@ void loop() {
 
   Serial.print("Temperatura:");
   Serial.print(fTemperatura);
-  Serial.println("c");
+  Serial.println("C");
 
   delay(TIEMPO_ESPERA);
 }
