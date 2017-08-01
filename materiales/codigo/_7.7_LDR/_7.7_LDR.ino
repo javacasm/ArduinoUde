@@ -53,6 +53,8 @@ void loop() {
 
   Serial.print("Valor LDR:");
   Serial.println(iValorLDR);
+
+  delay(TIEMPO_ESPERA);
 }
 /* ==== End Loop ==== */
 
