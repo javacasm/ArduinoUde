@@ -8,7 +8,8 @@ Conexiones
 
 LED:
   Terminal positivo (el más largo) conectado a los pines 8,9,10,11,12
-  Terminal negativo (más corto): conectados a una resistencias de 220Ohmios
+  Terminal negativo (más corto): conectados a una resistencias de 220 
+  Ohmios
       conectada a GND
 
 by JAVacasM
