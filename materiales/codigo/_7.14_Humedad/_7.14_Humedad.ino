@@ -55,12 +55,15 @@ void setup() {
   Serial.print  ("Sensor:       "); Serial.println(sensor.name);
   Serial.print  ("Driver Ver:   "); Serial.println(sensor.version);
   Serial.print  ("Unique ID:    "); Serial.println(sensor.sensor_id);
-  Serial.print  ("Max Valor:    "); Serial.print(sensor.max_value); Serial.println(" *C");
-  Serial.print  ("Min Valor:    "); Serial.print(sensor.min_value); Serial.println(" *C");
-  Serial.print  ("Resolucion:   "); Serial.print(sensor.resolution); Serial.println(" *C");
+  Serial.print  ("Max Valor:    "); Serial.print(sensor.max_value); Serial.println(" C");
+  Serial.print  ("Min Valor:    "); Serial.print(sensor.min_value); Serial.println(" C");
+  Serial.print  ("Resolucion:   "); Serial.print(sensor.resolution); Serial.println(" C");
   Serial.println("------------------------------------");
+  
   // Mostramos los datos del sensor referentes a humedad
+  
   dht.humidity().getSensor(&sensor);
+  
   Serial.println("------------------------------------");
   Serial.println("Humedad");
   Serial.print  ("Sensor:       "); Serial.println(sensor.name);
@@ -70,8 +73,14 @@ void setup() {
   Serial.print  ("Min Valor:    "); Serial.print(sensor.min_value); Serial.println("%");
   Serial.print  ("Resolucion:   "); Serial.print(sensor.resolution); Serial.println("%");
   Serial.println("------------------------------------");
-  // Set delay between sensor readings based on sensor details.
+  
+  // Establecemos el tiempo de espera en funcion de lo que nos da el sensor
+  
   lTiempoEspera = sensor.min_delay / 1000;
+
+  Serial.print("Esperaremos: ");
+  Serial.print(lTiempoEspera);
+  Serial.println(" ms");
 
 }
 /* ==== END Setup ==== */
