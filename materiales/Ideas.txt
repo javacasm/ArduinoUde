@@ -1,0 +1,6 @@
+* Estructura de la página (estructura.ong)
+* En la introducción explicar que hay una vía rápida ( saltando los temas de historia, etc.)
+
+* Añadir los proyectos en la introducción (hacer como temas en negrita)
+
+* Fondo para los vídeos (fondo.png)
