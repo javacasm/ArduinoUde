@@ -1,0 +1,21 @@
+5 x leds azules, rojos, amarillos y verdes
+20 x resistencias 220
+10 resistencias 10k
+5 pulsadores
+Joystick
+3 ldr
+2 potenciómetros 10k
+Buzzer
+LCD I2c
+2 servo
+1 DHT
+1 bme280
+Protoboard
+Cables
+3 RGB
+¿Neopixel?
+Ir tmt5020
+Sensor ultrasonidos
+Acelerómetro
+Sensor de movimiento
+
