@@ -27,7 +27,6 @@ by JAVacasM
 
 /* ==== Setup - Configuracion ==== */
 void setup() {
-
 }
 /* ==== END Setup ==== */
 
