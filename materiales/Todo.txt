@@ -1,0 +1,12 @@
+
+5 pulsadores
+Joystick
+Buzzer
+2 servo
+¿Neopixel?
+Ir tmt5020
+Sensor ultrasonidos
+Acelerómetro
+Sensor de movimiento
+
+Proyectos que mezclen y usen los componentes
