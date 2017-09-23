@@ -24,7 +24,7 @@ by JAVacasM
 #define PIN_VERDE 10
 #define PIN_AZUL   9
 
-#define ESPERA 500
+#define ESPERA 1000
 /* ==== END Defines ==== */
 
 /* ==== Variables Globales ==== */
@@ -47,43 +47,51 @@ void setup() { // Configuramos los pines como salidas
 
 /* ==== Loop - Codigo que se repite==== */
 void loop() {
+  
   // Veremos rojo
   digitalWrite(PIN_VERDE, LOW);   // Apagamos el verde
   digitalWrite(PIN_AZUL,  LOW);   // Apagamos el azul
   digitalWrite(PIN_ROJO, HIGH);   // Encendemos el rojo
+
+  delay(ESPERA);
 
   // Veremos azul
   digitalWrite(PIN_VERDE, LOW);   // Apagamos el verde
   digitalWrite(PIN_AZUL, HIGH);   // Encendemos el azul
   digitalWrite(PIN_ROJO,  LOW);   // Apagamos el rojo
 
+  delay(ESPERA);
+
     // Veremos verde
-  digitalWrite(PIN_VERDE, LOW);   // Apagamos el verde
+  digitalWrite(PIN_VERDE, HIGH);  // Encendemos el verde
   digitalWrite(PIN_AZUL,  LOW);   // Apagamos el azul
-  digitalWrite(PIN_ROJO, HIGH);   // Encendemos el rojo
+  digitalWrite(PIN_ROJO,  LOW);   // Apagamos el rojo
+
+  delay(ESPERA);
 
   // Veremos morado: azul+rojo
   digitalWrite(PIN_VERDE, LOW);   // Apagamos el verde
   digitalWrite(PIN_AZUL, HIGH);   // Encendemos el azul
   digitalWrite(PIN_ROJO, HIGH);   // Encendemos el rojo
 
+  delay(ESPERA);
 
   // Veremos cyan: verde+azul
   digitalWrite(PIN_VERDE, HIGH);  // Encendemos el verde
   digitalWrite(PIN_AZUL,  HIGH);  // Encendemos el azul
   digitalWrite(PIN_ROJO,   LOW);  // Apagamos el rojo
 
+  delay(ESPERA);
 
-  // Veremos marron: verde y rojo
+  // Veremos amarillo: verde y rojo
   digitalWrite(PIN_VERDE, HIGH);  // Encendemos el verde
   digitalWrite(PIN_AZUL,   LOW);  // Apagamos el azul
   digitalWrite(PIN_ROJO,  HIGH);  // Encendemos el rojo
 
-
+  delay(ESPERA);
   
 }
 /* ==== End Loop ==== */
 
 /* ==== Funciones ==== */
-
 /* ==== END Functions ==== */
