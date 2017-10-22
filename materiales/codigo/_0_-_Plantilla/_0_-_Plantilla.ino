@@ -1,9 +1,9 @@
 /*
 Curso de Arduino
 
-Descripcion del proyecto
+Envio de datos al PC
 
-Conexiones
+Conexiones - USB
 
 by JAVacasM
  */
@@ -27,11 +27,16 @@ by JAVacasM
 
 /* ==== Setup - Configuracion ==== */
 void setup() {
+  Serial.begin(9600);  // Configurando el puerto Serie
+  
 }
 /* ==== END Setup ==== */
 
 /* ==== Loop - Codigo que se repite==== */
 void loop() {
+  Serial.print("Hola");
+  Serial.println(" Arduino");
+  
 }
 /* ==== End Loop ==== */
 
