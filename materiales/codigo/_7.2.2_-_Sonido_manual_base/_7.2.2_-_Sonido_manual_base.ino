@@ -9,9 +9,7 @@ Zumbador a pin 5
 by JAVacasM
  */
 
-
 /* ==== Includes - Librerias==== */
-
 /* ====  END Includes ==== */
 
 /* ==== Defines - Constantes ==== */
@@ -20,24 +18,20 @@ by JAVacasM
 /* ==== END Defines ==== */
 
 /* ==== Variables Globales ==== */
-
 /* ==== END Global Variables ==== */
 
-
 /* ==== Funciones a usar - Prototipos ==== */
-
 /* ==== END Prototipos ==== */
 
 /* ==== Setup - Configuracion ==== */
 void setup() {
   pinMode(PIN_ZUMBADOR,OUTPUT);
-  
 }
 /* ==== END Setup ==== */
 
 /* ==== Loop - Codigo que se repite==== */
 void loop() {
-  int espera=20;
+  int espera=1;
   for(int i=0;i<N/espera;i++){
     digitalWrite(PIN_ZUMBADOR,LOW);
     delay(espera);
