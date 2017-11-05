@@ -79,8 +79,6 @@ void giro(int velocidad){
   analogWrite(B1A,velocidad);
   analogWrite(B1B,0);  
 }
-
-
 void parar(){
   analogWrite(A1A,0);
   analogWrite(A1B,0);
