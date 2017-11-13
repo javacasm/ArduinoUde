@@ -19,7 +19,7 @@ by JAVacasM
 
 /* ==== Defines - Constantes ==== */
 #define PIN_LM35   A0
-#define TIEMPO_ESPERA       100 // 100 milisegundos = 0.1 segundo
+#define TIEMPO_ESPERA       300 // 100 milisegundos = 0.1 segundo
 /* ==== END Defines ==== */
 
 /* ==== Variables Globales ==== */
@@ -45,8 +45,13 @@ void loop() {
   float fTemperatura=(5.0 * iValorLM35 * 100.0)/1024.0; // usamos constantes decimales
               // Para forzar la conversión con decimales
 
-  Serial.print("Temperatura:");
+  int iTemperatura=(5* iValorLM35 * 100)/1024;
+
+  Serial.print("Temperatura: ");
   Serial.print(fTemperatura);
+  Serial.print(" , ");
+  Serial.print(iTemperatura);
+  
   Serial.println("C");
 
 
