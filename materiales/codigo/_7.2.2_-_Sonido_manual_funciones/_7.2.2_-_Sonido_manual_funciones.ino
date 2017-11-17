@@ -14,7 +14,7 @@ by JAVacasM
 
 /* ==== Defines - Constantes ==== */
 #define PIN_ZUMBADOR 5
-#define N 500
+#define N_REPETICIONES 500
 /* ==== END Defines ==== */
 
 /* ==== Variables Globales ==== */
@@ -31,16 +31,16 @@ void setup() {
 
 /* ==== Loop - Codigo que se repite==== */
 void loop() {
-  int espera=1;
-/*  for(int i=0;i<N/espera;i++){
+  int espera = 1;
+/*  for(int i = 0 ; i < N/espera; i++){
     digitalWrite(PIN_ZUMBADOR,LOW);
     delay(espera);
     digitalWrite(PIN_ZUMBADOR,HIGH);
     delay(espera);
   }*/
-  enciendeApaga(PIN_ZUMBADOR,espera,N);
-  enciendeApaga(PIN_ZUMBADOR,espera*2,N*3);
-  enciendeApaga(PIN_ZUMBADOR,5,N*2);
+  enciendeApaga(PIN_ZUMBADOR, espera, N_REPETICIONES);
+  enciendeApaga(PIN_ZUMBADOR, espera*2, N_REPETICIONES*3);
+  enciendeApaga(PIN_ZUMBADOR, 5, N_REPETICIONES*2);
 }
 
 /* ==== End Loop ==== */
