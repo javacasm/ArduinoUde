@@ -8,7 +8,9 @@ Conexiones
 LEd conectado a pin 13  (Se puede usar el de la placa)
 
 by JAVacasM
- */
+revised by chute (2017/11/16)
+
+*/
 
 
 /* ==== Includes - Librerias==== */
