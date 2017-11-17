@@ -7,6 +7,8 @@ Conexiones
 Zumbador a pin 5
 
 by JAVacasM
+
+revisado by chute (2017/11/16)
  */
 
 /* ==== Includes - Librerias==== */
