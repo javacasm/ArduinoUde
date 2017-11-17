@@ -14,7 +14,7 @@ by JAVacasM
 
 /* ==== Defines - Constantes ==== */
 #define PIN_ZUMBADOR 5
-#define N 500
+#define N_REPETICIONES 500
 /* ==== END Defines ==== */
 
 /* ==== Variables Globales ==== */
@@ -25,17 +25,17 @@ by JAVacasM
 
 /* ==== Setup - Configuracion ==== */
 void setup() {
-  pinMode(PIN_ZUMBADOR,OUTPUT);
+  pinMode(PIN_ZUMBADOR, OUTPUT);
 }
 /* ==== END Setup ==== */
 
 /* ==== Loop - Codigo que se repite==== */
 void loop() {
   int espera=1;
-  for(int i=0;i<N/espera;i++){
-    digitalWrite(PIN_ZUMBADOR,LOW);
+  for(int i = 0 ;i < N_REPETICIONES/espera; i++){
+    digitalWrite(PIN_ZUMBADOR, LOW);
     delay(espera);
-    digitalWrite(PIN_ZUMBADOR,HIGH);
+    digitalWrite(PIN_ZUMBADOR, HIGH);
     delay(espera);
   }
 }
