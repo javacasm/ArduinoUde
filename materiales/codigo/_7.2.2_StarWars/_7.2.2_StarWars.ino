@@ -24,15 +24,15 @@
 #define  b5    1012
 #define  c6    955
 
-#define  R     0      // Define a special note, ‘R’, to represent a rest
+#define  R     0      // Definimos una nota "especial" ‘R’, que prepresenta un silencio/pausa
 
 int melodia[] = {  f4,  f4, f4,  a4s,   f5,  d5s,  d5,  c5, a5s, f5, d5s,  d5,  c5, a5s, f5, d5s, d5, d5s,   c5};
 int beats2[]  = {  21,  21, 21,  128,  128,   21,  21,  21, 128, 64,  21,  21,  21, 128, 64,  21, 21,  21, 128 };
 
-int MAX_COUNT = sizeof(melodia) / 2;
+const int MAX_COUNT = sizeof(melodia) / sizeof(int);
 
 long tempo = 5000;
-int pause = 500;
+int  pausa = 500;
 
 int rest_count = 20;
 
@@ -44,10 +44,10 @@ void setup() {
   pinMode(PIN_BUZZER, OUTPUT);
   pinMode(PIN_LED, OUTPUT);
 
-  MAX_COUNT = sizeof(melodia) / 2;
+  
   for (int i = 0; i < MAX_COUNT; i++) {
     playTone(beats2[i],melodia[i]);
-    delayMicroseconds(pause);
+    delayMicroseconds(pausa);
   }
   
 }
