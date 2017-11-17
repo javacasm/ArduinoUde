@@ -1,3 +1,20 @@
+/*
+  Curso de Arduino
+ 
+  Ejemplo de musica
+ 
+  Conexiones 
+  LED conectado a pin 13  (Se puede usar el de la placa)
+ 
+  Original de http://www.iescamp.es/miarduino/2016/02/15/buzzer-y-star-wars/
+  
+  adaptado by  JAVacasM
+  
+  revisado by chute (2017/11/16)
+  
+*/
+
+/* ==== Defines - Constantes ==== */
 #define  c3    7634
 #define  d3    6803
 #define  e3    6061
@@ -26,6 +43,12 @@
 
 #define  R     0      // Definimos una nota "especial" ‘R’, que prepresenta un silencio/pausa
 
+#define PIN_BUZZER  5
+#define PIN_LED 13
+
+/* ==== END Defines ==== */
+
+/* ==== Variables Globales ==== */
 int melodia[] = {  f4,  f4, f4,  a4s,   f5,  d5s,  d5,  c5, a5s, f5, d5s,  d5,  c5, a5s, f5, d5s, d5, d5s,   c5};
 int beats2[]  = {  21,  21, 21,  128,  128,   21,  21,  21, 128, 64,  21,  21,  21, 128, 64,  21, 21,  21, 128 };
 
@@ -35,11 +58,9 @@ long tempo = 5000;
 int  pausa = 500;
 
 int rest_count = 20;
+/* ==== END Global Variables ==== */
 
-
-#define PIN_BUZZER  5
-#define PIN_LED 13
-
+/* ==== Setup - Configuracion ==== */
 void setup() {
   pinMode(PIN_BUZZER, OUTPUT);
   pinMode(PIN_LED, OUTPUT);
@@ -51,10 +72,12 @@ void setup() {
   }
   
 }
+/* ==== END Setup ==== */
 
+/* ==== Loop - Codigo que se repite==== */
 void loop() {
 }
-
+/* ==== End Loop ==== */
 void playTone(int beat,int toneM) {
   
   long duration = beat * tempo;
